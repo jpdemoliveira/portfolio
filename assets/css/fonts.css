@@ -2,3 +2,22 @@ div {
   font-family: "Inter", sans-serif;
   font-feature-settings: "cv06" 1, "cv10" 1, "cv11" 1, "liga" 1, "calt" 1;
 }
+
+html::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(2, 44, 34) !important;
+  box-shadow: inset 0 0 6px rgb(2, 44, 34) !important;
+  border-radius: 10px !important;
+  background-color: rgba(2, 44, 34) !important;
+}
+
+html::-webkit-scrollbar {
+  width: 8px !important;
+  background-color: rgba(2, 44, 34) !important;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+  -webkit-box-shadow: inset 0 0 6px rgb(2, 44, 34) !important;
+  box-shadow: inset 0 0 6px rgb(2, 44, 34) !important;
+  background-color: #065f46 !important;
+}

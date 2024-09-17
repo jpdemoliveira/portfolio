@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="pointer-events-none background absolute inset-0"></div>
+    <div class="pointer-events-none background absolute inset-0 fixed"></div>
     <div
       class="text-slate-200 min-h-screen max-w-screen-xl mx-auto md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4"
     >
@@ -31,7 +31,7 @@ onMounted(() => {
 });
 </script>
 
-<style>
+<style scoped>
 .background {
   background: radial-gradient(
     600px at var(--x) var(--y),
@@ -40,11 +40,11 @@ onMounted(() => {
   );
 }
 
-.background::before {
+/* .background::before {
   background: radial-gradient(
     600px at var(--x) var(--y),
     rgba(2, 6, 23, 0.05),
     transparent 80%
   );
-}
+} */
 </style>

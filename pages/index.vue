@@ -4,7 +4,7 @@
 
 <script setup>
 useHead({
-  title: "JPMO Portfolio App",
+  title: "João Oliveira",
   meta: [
     {
       name: "description",
@@ -13,6 +13,9 @@ useHead({
   ],
   bodyAttrs: {
     class: "bg-emerald-950",
+  },
+  htmlAttrs: {
+    class: "scroll-smooth",
   },
 });
 </script>
