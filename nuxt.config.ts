@@ -8,5 +8,5 @@ export default defineNuxtConfig({
       {name:"Inter", provider:"local"},
     ]
   },
-  css: ['~/assets/css/fonts.css'],
+  css: ['~/assets/css/fonts.css','~/assets/css/scrollbar.css'],
 })
