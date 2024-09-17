@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="background absolute inset-0"></div>
+    <div class="pointer-events-none background absolute inset-0"></div>
     <div
       class="text-slate-200 min-h-screen max-w-screen-xl mx-auto md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4"
     >
@@ -12,7 +12,7 @@
 
 <script setup>
 const mouseGlow = () => {
-  const background = document.querySelector(".background");
+  const background = document.querySelector("#__nuxt");
   background.style.setProperty("--x", `0px`);
   background.style.setProperty("--y", `0px`);
 

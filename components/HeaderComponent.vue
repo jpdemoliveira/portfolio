@@ -1,7 +1,9 @@
 <template>
   <div class="lg:py-12 lg:w-1/2 flex flex-col justify-between">
     <header>
-      <div class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
+      <div
+        class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl name"
+      >
         João Pedro Oliveira
       </div>
       <div

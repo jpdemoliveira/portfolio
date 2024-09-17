@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/fonts', '@nuxt/icon'],
   fonts:{
     families:[
-      {name:"Inter", provider:"local"}
+      {name:"Inter", provider:"local"},
     ]
   },
   css: ['~/assets/css/fonts.css'],
