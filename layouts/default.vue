@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative p-10 lg:p-0">
     <div class="pointer-events-none background absolute inset-0 fixed"></div>
     <div
       class="text-slate-200 min-h-screen max-w-screen-xl mx-auto md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4"
