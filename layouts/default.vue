@@ -1,11 +1,13 @@
 <template>
-  <div class="relative p-10 lg:p-0">
+  <div class="relative p-6 lg:p-0">
     <div class="pointer-events-none background absolute inset-0 fixed"></div>
     <div
       class="text-slate-200 min-h-screen max-w-screen-xl mx-auto md:px-12 md:py-20 lg:px-24 lg:py-0 lg:flex lg:justify-between lg:gap-4"
     >
       <HeaderComponent />
-      <slot />
+      <main class="lg:py-24 lg:w-1/2 text-gray-400 font-thin" id="main-content">
+        <slot />
+      </main>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:py-24 lg:w-1/2 text-gray-400 font-thin" id="about">
+  <div class="w-100 h-100" id="about">
     <div class="h-100">
       <p>
         <span class="text-gray-200">Frontend-focused Software Engineer</span>

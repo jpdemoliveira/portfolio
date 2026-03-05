@@ -72,11 +72,18 @@
     </div>
     <ul class="flex items-center pb-2 lg:pb-0">
       <li v-for="(item, index) in socialMedia" :key="index">
-        <a :href="item.to" target="_blank">
+        <a
+          :href="item.to"
+          :aria-label="item.label"
+          :title="item.label"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Icon
             :name="item.name"
             :size="item.size"
             class="mr-6 text-gray-400 hover:text-gray-200"
+            aria-hidden="true"
           />
         </a>
       </li>
@@ -103,16 +110,23 @@ const navigation = [
 ];
 
 const socialMedia = [
-  { name: "mdi:github", size: "2em", to: "https://github.com/jpdemoliveira" },
+  {
+    name: "mdi:github",
+    size: "2em",
+    to: "https://github.com/jpdemoliveira",
+    label: "GitHub profile",
+  },
   {
     name: "mdi:linkedin",
     size: "2em",
     to: "https://www.linkedin.com/in/jpdemoliveira/",
+    label: "LinkedIn profile",
   },
   {
     name: "mdi:instagram",
     size: "2em",
     to: "https://www.instagram.com/jpdemoliveira/",
+    label: "Instagram profile",
   },
 ];
 </script>
